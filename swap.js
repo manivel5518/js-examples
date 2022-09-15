@@ -1,0 +1,11 @@
+let a=5;
+console.log("now a is"+a);
+let b=10;
+console.log("now b is "+b);
+let c;
+c=a;
+console.log("now c is 5"+c);
+b=c;
+console.log("now b is 5"+b);
+a=b;
+console.log ("now a is 5"+a);
