@@ -1,0 +1,14 @@
+const date1=new Date();
+const date2=new Date();
+const cmp1= date1<date2;
+console.log(cmp1);
+const cmp2=date1>date2;
+console.log(cmp2);
+const cmp3=date1<=date2;
+console.log(cmp3);
+const cmp4= date1>=date2;
+console.log(cmp4);
+const cmp5=date1.getTime()===date2.getTime();
+console.log(cmp5);
+const cmp6=date1.getTime()!==date2.getTime();
+console.log(cmp6);
